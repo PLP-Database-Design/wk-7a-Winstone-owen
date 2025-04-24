@@ -1,5 +1,4 @@
-
--- Question 1 🛠️ Achieving First Normal Form (1NF)
+-- Question 1 Achieving First Normal Form (1NF)
 
 -- Step 1: Create the 1NF-compliant table
 CREATE TABLE ProductDetail_1NF (
@@ -17,7 +16,7 @@ INSERT INTO ProductDetail_1NF VALUES (102, 'Jane Smith', 'Mouse');
 INSERT INTO ProductDetail_1NF VALUES (103, 'Emily Clark', 'Phone');
 
 
--- Question 2 🧩 Achieving Second Normal Form (2NF)
+-- Question 2 Achieving Second Normal Form (2NF)
 
 -- Step 1: Create the Orders table to hold OrderID → CustomerName
 CREATE TABLE Orders (
